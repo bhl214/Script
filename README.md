@@ -1,1 +1,1 @@
-## Welcome to focus on my TG channel[@NobyDa](https://t.me/NobyDa)
+## Welcome！This is private Script group

@@ -17,7 +17,7 @@ MitM = dayone.me
 本脚本由 @ImSingee 与 @Mornwind 共同完成，请勿在公开群组、频道或是论坛、博客发布
 */
 
-if ($response.status == 200) {
+if ($response.statusCode == 200) {
         if ($request.url.endsWith("account-status")) {
 
             $done({body: JSON.stringify({
