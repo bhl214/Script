@@ -9,7 +9,7 @@ MitM = vira.llsapp.com
 
 */
 
-if ($response.status == 200 && $request.method == 'GET') {
+if ($response.statusCode == 200 && $request.method == 'GET') {
 	const bodyObj = JSON.parse($response.body);
 
 	if ($request.url.indexOf('limitation') != -1) {
