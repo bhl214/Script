@@ -18,6 +18,3 @@ if (url.indexOf(time) != -1) {
 }
 
 $done({body});
-/**
- * @supported 9E1BBA07A0EF
- */
