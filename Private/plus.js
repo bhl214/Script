@@ -11,6 +11,7 @@ if (body.indexOf("expires") !=-1) {
   }
 $done({body: JSON.stringify(obj)});
 
+var obj = JSON.parse($response.body);
 var bundle_id = obj.receipt["bundle_id"];
 if (bundle_id == "net.shinyfrog.bear-iOS") {
   obj = {
